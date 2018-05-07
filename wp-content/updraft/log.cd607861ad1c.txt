@@ -1,0 +1,430 @@
+0000.000 (0) Opened log file at time: Mon, 07 May 2018 15:01:21 +0000 on http://fstemplate1-5.local
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MBP.hitronhub.home 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_CA Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.8M | 6M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 95169.4 MB
+0000.012 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.027 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.034 (0) Set semaphore last lock (fd) time to 2018-05-07 15:01:21
+0000.035 (0) Semaphore lock (fd) complete
+0000.044 (0) Backup run: resumption=0, nonce=cd607861ad1c, begun at=1525705281 (0s ago), job type=backup
+0000.046 (0) Scheduling a resumption (1) after 300 seconds (1525705581) in case this run gets aborted
+0000.068 (0) Checking if we have a zip executable available
+0000.070 (0) Testing: /usr/bin/zip
+0000.104 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.108 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.110 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.112 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.113 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.136 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.139 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.157 (0) Working binary zip found: /usr/bin/zip
+0000.161 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.162 (0) Creation of backups of directories: beginning
+0000.168 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0001.043 (0) Total entities for the zip file: 542 directories, 4003 files (0 skipped as non-modified), 61.9 MB
+0001.053 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.065 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.076 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.089 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.103 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.105 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.2 MB, 4003 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.084 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: size is now: 4.20 MB
+0002.093 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 600 files added (on-disk size: 4272.4 KB)
+0002.100 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 700 files added (on-disk size: 4272.4 KB)
+0002.107 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 800 files added (on-disk size: 4272.4 KB)
+0002.116 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 900 files added (on-disk size: 4272.4 KB)
+0002.124 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 1000 files added (on-disk size: 4272.4 KB)
+0002.125 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.1 MB, 4003 files batched, 501 (1002) added so far); re-opening (prior size: 4272.4 KB)
+0003.165 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: size is now: 9.00 MB
+0003.173 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 1100 files added (on-disk size: 9222.1 KB)
+0003.180 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 1200 files added (on-disk size: 9222.1 KB)
+0003.187 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 1300 files added (on-disk size: 9222.1 KB)
+0003.195 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 1400 files added (on-disk size: 9222.1 KB)
+0003.201 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 1500 files added (on-disk size: 9222.1 KB)
+0003.203 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.7 MB, 4003 files batched, 501 (1503) added so far); re-opening (prior size: 9222.1 KB)
+0003.457 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 1600 files added (on-disk size: 9596.6 KB)
+0003.466 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 1700 files added (on-disk size: 9596.6 KB)
+0003.473 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 1800 files added (on-disk size: 9596.6 KB)
+0003.480 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 1900 files added (on-disk size: 9596.6 KB)
+0003.487 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 2000 files added (on-disk size: 9596.6 KB)
+0003.489 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.5 MB, 4003 files batched, 501 (2004) added so far); re-opening (prior size: 9596.6 KB)
+0004.126 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: size is now: 11.70 MB
+0004.134 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 2100 files added (on-disk size: 11988 KB)
+0004.139 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 2200 files added (on-disk size: 11988 KB)
+0004.145 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 2300 files added (on-disk size: 11988 KB)
+0004.150 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 2400 files added (on-disk size: 11988 KB)
+0004.156 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 2500 files added (on-disk size: 11988 KB)
+0004.158 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 4003 files batched, 501 (2505) added so far); re-opening (prior size: 11988 KB)
+0004.587 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 2600 files added (on-disk size: 12974.8 KB)
+0004.596 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 2700 files added (on-disk size: 12974.8 KB)
+0004.603 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 2800 files added (on-disk size: 12974.8 KB)
+0004.612 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 2900 files added (on-disk size: 12974.8 KB)
+0004.620 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 3000 files added (on-disk size: 12974.8 KB)
+0004.622 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 4003 files batched, 501 (3006) added so far); re-opening (prior size: 12974.8 KB)
+0005.034 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 3100 files added (on-disk size: 13762.8 KB)
+0005.042 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 3200 files added (on-disk size: 13762.8 KB)
+0005.052 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 3300 files added (on-disk size: 13762.8 KB)
+0005.061 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 3400 files added (on-disk size: 13762.8 KB)
+0005.070 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 3500 files added (on-disk size: 13762.8 KB)
+0005.071 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 MB, 4003 files batched, 501 (3507) added so far); re-opening (prior size: 13762.8 KB)
+0005.800 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: size is now: 16.60 MB
+0005.810 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 3600 files added (on-disk size: 17024 KB)
+0005.821 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 3700 files added (on-disk size: 17024 KB)
+0005.831 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 3800 files added (on-disk size: 17024 KB)
+0005.848 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 3900 files added (on-disk size: 17024 KB)
+0005.863 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: 4000 files added (on-disk size: 17024 KB)
+0005.898 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (14.8 MB, 494 (4001) files added so far); last ratio: 0.519; re-opening (prior size: 17024 KB)
+0006.978 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip.tmp: size is now: 22.00 MB
+0006.982 (0) Zip size is at/near split limit (22 MB / 25 MB) - bumping index (from: 0)
+0008.825 (0) Created plugins zip (0) - 22570.3 KB in 6.8 s (3313.1 KB/s) (checksums: sha1: 85c7f01d9a6d35a0e867477595e02b3a3424bf2b, sha256: cfc7655cacdaaa4af4b2220b4daf533f0bb62f31df278344c73486b699537ebd)
+0008.900 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins2.zip.tmp: size is now: 0.20 MB
+0008.971 (0) Created plugins zip (1) - 158.9 KB in 0.1 s (1107.7 KB/s) (sha1: 1bdfe227fe834d5b4791ed312e6352c53b5f32b0, sha256: a0dfef75190875a6206e4299f0c016dbafd81896fde66e826b74d59858835a83)
+0008.975 (0) Deleting old temporary file: log.e8d44b30cbab-browser.txt
+0008.986 (0) Beginning creation of dump of themes (split every: 25 MB)
+0009.055 (0) Total entities for the zip file: 42 directories, 261 files (0 skipped as non-modified), 4.5 MB
+0009.065 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.092 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.664 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-themes.zip.tmp: size is now: 3.10 MB
+0009.828 (0) Created themes zip (0) - 3178.6 KB in 0.8 s (3796.4 KB/s) (sha1: 8f9a48ff006f1310f2194e262b6dc57b3add166e, sha256: ce0ca9caee2813e3d0d282d1496fd50b14bee08e81dd8a2e3b867b8d3279b223)
+0009.834 (0) Exclusion option setting (uploads): 
+0009.838 (0) Looking for candidates to back up in: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-5/wp-content/uploads
+0009.842 (0) finding files: 2018: adding to list (1)
+0009.850 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0009.930 (0) Total entities for the zip file: 3 directories, 279 files (0 skipped as non-modified), 12.5 MB
+0009.942 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.997 (0) Zip: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.399 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-uploads.zip.tmp: size is now: 12.50 MB
+0011.192 (0) Created uploads zip (0) - 12840.8 KB in 1.3 s (9604 KB/s) (sha1: a7bec70280bc401d140afaa3cb57436780fd6389, sha256: f73a7d8e81db609ebb6a817abcfdb45bde1fea59c4e6de450fff429df759a8fb)
+0011.197 (0) Beginning backup of other directories found in the content directory (index: 0)
+0011.198 (0) Exclusion option setting (others): 
+0011.200 (0) Looking for candidates to back up in: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-5/wp-content
+0011.201 (0) finding files: .DS_Store: adding to list (1)
+0011.202 (0) finding files: index.php: adding to list (2)
+0011.204 (0) finding files: languages: adding to list (3)
+0011.205 (0) finding files: plugins: skipping: this is the plugins directory
+0011.207 (0) finding files: themes: skipping: this is the themes directory
+0011.209 (0) finding files: updraft: skipping: this is the updraft directory
+0011.211 (0) finding files: upgrade: adding to list (4)
+0011.212 (0) finding files: uploads: skipping: this is the uploads directory
+0011.214 (0) finding files: wflogs: adding to list (5)
+0011.225 (0) Total entities for the zip file: 5 directories, 30 files (0 skipped as non-modified), 3.2 MB
+0011.509 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-others.zip.tmp: size is now: 1.00 MB
+0011.607 (0) Created others zip (0) - 1052.9 KB in 0.4 s (2705 KB/s) (sha1: affaa9339d81d2df5db035e76a9787ff6b866e41, sha256: 64a7342d8a168333eae640e7f1c3f8ffe5ee8564152f7a1d2ad3f10eb840d147)
+0011.627 (0) Saving backup status to database (elements: 9)
+0011.633 (0) Beginning creation of database dump (WordPress DB)
+0011.704 (0) Table wp_fstemplate1_5options: Total expected rows (approximate): 333
+0011.761 (0) Table wp_fstemplate1_5options: Total rows added: 328 in 0.05 seconds
+0011.764 (0) Table wp_fstemplate1_5options: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5options.table.gz - 41.7 KB)
+0011.773 (0) Table wp_fstemplate1_5users: Total expected rows (approximate): 1
+0011.788 (0) Table wp_fstemplate1_5users: Total rows added: 1 in 0.01 seconds
+0011.791 (0) Table wp_fstemplate1_5users: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5users.table.gz - 0.5 KB)
+0011.798 (0) Table wp_fstemplate1_5usermeta: Total expected rows (approximate): 25
+0011.805 (0) Table wp_fstemplate1_5usermeta: Total rows added: 25 in 0.01 seconds
+0011.807 (0) Table wp_fstemplate1_5usermeta: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5usermeta.table.gz - 1.2 KB)
+0011.814 (0) Table wp_fstemplate1_5commentmeta: Total expected rows (approximate): 0
+0011.822 (0) Table wp_fstemplate1_5commentmeta: Total rows added: 0 in 0.01 seconds
+0011.825 (0) Table wp_fstemplate1_5commentmeta: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5commentmeta.table.gz - 0.3 KB)
+0011.836 (0) Table wp_fstemplate1_5comments: Total expected rows (approximate): 1
+0011.844 (0) Table wp_fstemplate1_5comments: Total rows added: 1 in 0.01 seconds
+0011.846 (0) Table wp_fstemplate1_5comments: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5comments.table.gz - 0.7 KB)
+0011.853 (0) Table wp_fstemplate1_5links: Total expected rows (approximate): 0
+0011.861 (0) Table wp_fstemplate1_5links: Total rows added: 0 in 0.01 seconds
+0011.862 (0) Table wp_fstemplate1_5links: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5links.table.gz - 0.4 KB)
+0011.870 (0) Table wp_fstemplate1_5postmeta: Total expected rows (approximate): 3241
+0011.972 (0) Table wp_fstemplate1_5postmeta: Total rows added: 3241 in 0.10 seconds
+0011.977 (0) Table wp_fstemplate1_5postmeta: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5postmeta.table.gz - 33.9 KB)
+0011.983 (0) Table wp_fstemplate1_5posts: Total expected rows (approximate): 291
+0012.018 (0) Table wp_fstemplate1_5posts: Total rows added: 291 in 0.03 seconds
+0012.020 (0) Table wp_fstemplate1_5posts: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5posts.table.gz - 14.9 KB)
+0012.026 (0) Table wp_fstemplate1_5term_relationships: Total expected rows (approximate): 14
+0012.032 (0) Table wp_fstemplate1_5term_relationships: Total rows added: 14 in 0.00 seconds
+0012.033 (0) Table wp_fstemplate1_5term_relationships: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5term_relationships.table.gz - 0.4 KB)
+0012.042 (0) Table wp_fstemplate1_5term_taxonomy: Total expected rows (approximate): 3
+0012.058 (0) Table wp_fstemplate1_5term_taxonomy: Total rows added: 3 in 0.01 seconds
+0012.059 (0) Table wp_fstemplate1_5term_taxonomy: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5term_taxonomy.table.gz - 0.4 KB)
+0012.070 (0) Table wp_fstemplate1_5termmeta: Total expected rows (approximate): 0
+0012.085 (0) Table wp_fstemplate1_5termmeta: Total rows added: 0 in 0.01 seconds
+0012.086 (0) Table wp_fstemplate1_5termmeta: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5termmeta.table.gz - 0.3 KB)
+0012.094 (0) Table wp_fstemplate1_5terms: Total expected rows (approximate): 3
+0012.101 (0) Table wp_fstemplate1_5terms: Total rows added: 3 in 0.01 seconds
+0012.103 (0) Table wp_fstemplate1_5terms: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5terms.table.gz - 0.4 KB)
+0012.111 (0) Table wp_fstemplate1_5gf_draft_submissions: Total expected rows (approximate): 0
+0012.117 (0) Table wp_fstemplate1_5gf_draft_submissions: Total rows added: 0 in 0.01 seconds
+0012.119 (0) Table wp_fstemplate1_5gf_draft_submissions: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_draft_submissions.table.gz - 0.4 KB)
+0012.127 (0) Table wp_fstemplate1_5gf_entry: Total expected rows (approximate): 0
+0012.134 (0) Table wp_fstemplate1_5gf_entry: Total rows added: 0 in 0.00 seconds
+0012.136 (0) Table wp_fstemplate1_5gf_entry: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_entry.table.gz - 0.5 KB)
+0012.145 (0) Table wp_fstemplate1_5gf_entry_meta: Total expected rows (approximate): 0
+0012.151 (0) Table wp_fstemplate1_5gf_entry_meta: Total rows added: 0 in 0.00 seconds
+0012.153 (0) Table wp_fstemplate1_5gf_entry_meta: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_entry_meta.table.gz - 0.4 KB)
+0012.167 (0) Table wp_fstemplate1_5gf_entry_notes: Total expected rows (approximate): 0
+0012.174 (0) Table wp_fstemplate1_5gf_entry_notes: Total rows added: 0 in 0.01 seconds
+0012.176 (0) Table wp_fstemplate1_5gf_entry_notes: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_entry_notes.table.gz - 0.4 KB)
+0012.184 (0) Table wp_fstemplate1_5gf_form: Total expected rows (approximate): 1
+0012.191 (0) Table wp_fstemplate1_5gf_form: Total rows added: 1 in 0.01 seconds
+0012.195 (0) Table wp_fstemplate1_5gf_form: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_form.table.gz - 0.4 KB)
+0012.201 (0) Table wp_fstemplate1_5gf_form_meta: Total expected rows (approximate): 1
+0012.207 (0) Table wp_fstemplate1_5gf_form_meta: Total rows added: 1 in 0.00 seconds
+0012.209 (0) Table wp_fstemplate1_5gf_form_meta: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_form_meta.table.gz - 1.2 KB)
+0012.218 (0) Table wp_fstemplate1_5gf_form_view: Total expected rows (approximate): 1
+0012.227 (0) Table wp_fstemplate1_5gf_form_view: Total rows added: 1 in 0.01 seconds
+0012.229 (0) Table wp_fstemplate1_5gf_form_view: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_form_view.table.gz - 0.4 KB)
+0012.237 (0) Table wp_fstemplate1_5responsive_menu_pro: Total expected rows (approximate): 276
+0012.247 (0) Table wp_fstemplate1_5responsive_menu_pro: Total rows added: 276 in 0.01 seconds
+0012.249 (0) Table wp_fstemplate1_5responsive_menu_pro: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5responsive_menu_pro.table.gz - 2.3 KB)
+0012.256 (0) Table wp_fstemplate1_5wfBadLeechers: Total expected rows (approximate): 0
+0012.263 (0) Table wp_fstemplate1_5wfBadLeechers: Total rows added: 0 in 0.01 seconds
+0012.265 (0) Table wp_fstemplate1_5wfBadLeechers: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfBadLeechers.table.gz - 0.3 KB)
+0012.275 (0) Table wp_fstemplate1_5wfBlockedCommentLog: Total expected rows (approximate): 0
+0012.281 (0) Table wp_fstemplate1_5wfBlockedCommentLog: Total rows added: 0 in 0.00 seconds
+0012.283 (0) Table wp_fstemplate1_5wfBlockedCommentLog: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfBlockedCommentLog.table.gz - 0.4 KB)
+0012.290 (0) Table wp_fstemplate1_5wfBlockedIPLog: Total expected rows (approximate): 0
+0012.295 (0) Table wp_fstemplate1_5wfBlockedIPLog: Total rows added: 0 in 0.00 seconds
+0012.296 (0) Table wp_fstemplate1_5wfBlockedIPLog: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfBlockedIPLog.table.gz - 0.3 KB)
+0012.304 (0) Table wp_fstemplate1_5wfBlocks7: Total expected rows (approximate): 0
+0012.311 (0) Table wp_fstemplate1_5wfBlocks7: Total rows added: 0 in 0.01 seconds
+0012.316 (0) Table wp_fstemplate1_5wfBlocks7: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfBlocks7.table.gz - 0.4 KB)
+0012.325 (0) Table wp_fstemplate1_5wfConfig: Total expected rows (approximate): 230
+0012.409 (0) Table wp_fstemplate1_5wfConfig: Total rows added: 230 in 0.08 seconds
+0012.416 (0) Table wp_fstemplate1_5wfConfig: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfConfig.table.gz - 355.5 KB)
+0012.428 (0) Table wp_fstemplate1_5wfCrawlers: Total expected rows (approximate): 0
+0012.434 (0) Table wp_fstemplate1_5wfCrawlers: Total rows added: 0 in 0.00 seconds
+0012.435 (0) Table wp_fstemplate1_5wfCrawlers: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfCrawlers.table.gz - 0.3 KB)
+0012.443 (0) Table wp_fstemplate1_5wfFileChanges: Total expected rows (approximate): 0
+0012.453 (0) Table wp_fstemplate1_5wfFileChanges: Total rows added: 0 in 0.01 seconds
+0012.457 (0) Table wp_fstemplate1_5wfFileChanges: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfFileChanges.table.gz - 0.3 KB)
+0012.472 (0) Table wp_fstemplate1_5wfFileMods: Total expected rows (approximate): 6025
+0012.897 (0) Table wp_fstemplate1_5wfFileMods: Total rows added: 6025 in 0.42 seconds
+0012.900 (0) Table wp_fstemplate1_5wfFileMods: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfFileMods.table.gz - 477.6 KB)
+0012.907 (0) Table wp_fstemplate1_5wfHits: Total expected rows (approximate): 59
+0012.920 (0) Table wp_fstemplate1_5wfHits: Total rows added: 59 in 0.01 seconds
+0012.922 (0) Table wp_fstemplate1_5wfHits: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfHits.table.gz - 2.1 KB)
+0012.931 (0) Table wp_fstemplate1_5wfHoover: Total expected rows (approximate): 0
+0012.950 (0) Table wp_fstemplate1_5wfHoover: Total rows added: 0 in 0.01 seconds
+0012.953 (0) Table wp_fstemplate1_5wfHoover: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfHoover.table.gz - 0.3 KB)
+0012.961 (0) Table wp_fstemplate1_5wfIssues: Total expected rows (approximate): 1
+0012.968 (0) Table wp_fstemplate1_5wfIssues: Total rows added: 1 in 0.00 seconds
+0012.969 (0) Table wp_fstemplate1_5wfIssues: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfIssues.table.gz - 0.9 KB)
+0012.980 (0) Table wp_fstemplate1_5wfKnownFileList: Total expected rows (approximate): 6025
+0013.157 (0) Table wp_fstemplate1_5wfKnownFileList: Total rows added: 6025 in 0.17 seconds
+0013.162 (0) Table wp_fstemplate1_5wfKnownFileList: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfKnownFileList.table.gz - 60.2 KB)
+0013.176 (0) Table wp_fstemplate1_5wfLeechers: Total expected rows (approximate): 2
+0013.183 (0) Table wp_fstemplate1_5wfLeechers: Total rows added: 2 in 0.00 seconds
+0013.185 (0) Table wp_fstemplate1_5wfLeechers: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfLeechers.table.gz - 0.3 KB)
+0013.198 (0) Table wp_fstemplate1_5wfLiveTrafficHuman: Total expected rows (approximate): 2
+0013.206 (0) Table wp_fstemplate1_5wfLiveTrafficHuman: Total rows added: 2 in 0.01 seconds
+0013.208 (0) Table wp_fstemplate1_5wfLiveTrafficHuman: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfLiveTrafficHuman.table.gz - 0.4 KB)
+0013.219 (0) Table wp_fstemplate1_5wfLocs: Total expected rows (approximate): 0
+0013.227 (0) Table wp_fstemplate1_5wfLocs: Total rows added: 0 in 0.01 seconds
+0013.229 (0) Table wp_fstemplate1_5wfLocs: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfLocs.table.gz - 0.4 KB)
+0013.240 (0) Table wp_fstemplate1_5wfLogins: Total expected rows (approximate): 4
+0013.248 (0) Table wp_fstemplate1_5wfLogins: Total rows added: 4 in 0.01 seconds
+0013.251 (0) Table wp_fstemplate1_5wfLogins: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfLogins.table.gz - 0.6 KB)
+0013.260 (0) Table wp_fstemplate1_5wfNet404s: Total expected rows (approximate): 0
+0013.267 (0) Table wp_fstemplate1_5wfNet404s: Total rows added: 0 in 0.01 seconds
+0013.269 (0) Table wp_fstemplate1_5wfNet404s: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfNet404s.table.gz - 0.3 KB)
+0013.279 (0) Table wp_fstemplate1_5wfNotifications: Total expected rows (approximate): 0
+0013.286 (0) Table wp_fstemplate1_5wfNotifications: Total rows added: 0 in 0.00 seconds
+0013.287 (0) Table wp_fstemplate1_5wfNotifications: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfNotifications.table.gz - 0.3 KB)
+0013.306 (0) Table wp_fstemplate1_5wfPendingIssues: Total expected rows (approximate): 0
+0013.313 (0) Table wp_fstemplate1_5wfPendingIssues: Total rows added: 0 in 0.00 seconds
+0013.315 (0) Table wp_fstemplate1_5wfPendingIssues: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfPendingIssues.table.gz - 0.4 KB)
+0013.325 (0) Table wp_fstemplate1_5wfReverseCache: Total expected rows (approximate): 0
+0013.329 (0) Table wp_fstemplate1_5wfReverseCache: Total rows added: 0 in 0.00 seconds
+0013.331 (0) Table wp_fstemplate1_5wfReverseCache: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfReverseCache.table.gz - 0.3 KB)
+0013.341 (0) Table wp_fstemplate1_5wfSNIPCache: Total expected rows (approximate): 0
+0013.353 (0) Table wp_fstemplate1_5wfSNIPCache: Total rows added: 0 in 0.01 seconds
+0013.357 (0) Table wp_fstemplate1_5wfSNIPCache: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfSNIPCache.table.gz - 0.4 KB)
+0013.368 (0) Table wp_fstemplate1_5wfScanners: Total expected rows (approximate): 0
+0013.373 (0) Table wp_fstemplate1_5wfScanners: Total rows added: 0 in 0.00 seconds
+0013.375 (0) Table wp_fstemplate1_5wfScanners: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfScanners.table.gz - 0.3 KB)
+0013.388 (0) Table wp_fstemplate1_5wfStatus: Total expected rows (approximate): 373
+0013.411 (0) Table wp_fstemplate1_5wfStatus: Total rows added: 373 in 0.02 seconds
+0013.414 (0) Table wp_fstemplate1_5wfStatus: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfStatus.table.gz - 7.6 KB)
+0013.421 (0) Table wp_fstemplate1_5wfVulnScanners: Total expected rows (approximate): 0
+0013.428 (0) Table wp_fstemplate1_5wfVulnScanners: Total rows added: 0 in 0.01 seconds
+0013.430 (0) Table wp_fstemplate1_5wfVulnScanners: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfVulnScanners.table.gz - 0.3 KB)
+0013.440 (0) Table wp_fstemplate1_5wpgmza: Total expected rows (approximate): 1
+0013.448 (0) Table wp_fstemplate1_5wpgmza: Total rows added: 1 in 0.01 seconds
+0013.450 (0) Table wp_fstemplate1_5wpgmza: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza.table.gz - 0.5 KB)
+0013.458 (0) Table wp_fstemplate1_5wpgmza_categories: Total expected rows (approximate): 0
+0013.464 (0) Table wp_fstemplate1_5wpgmza_categories: Total rows added: 0 in 0.00 seconds
+0013.465 (0) Table wp_fstemplate1_5wpgmza_categories: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_categories.table.gz - 0.3 KB)
+0013.488 (0) Table wp_fstemplate1_5wpgmza_category_maps: Total expected rows (approximate): 0
+0013.495 (0) Table wp_fstemplate1_5wpgmza_category_maps: Total rows added: 0 in 0.01 seconds
+0013.497 (0) Table wp_fstemplate1_5wpgmza_category_maps: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_category_maps.table.gz - 0.3 KB)
+0013.506 (0) Table wp_fstemplate1_5wpgmza_circles: Total expected rows (approximate): 0
+0013.512 (0) Table wp_fstemplate1_5wpgmza_circles: Total rows added: 0 in 0.00 seconds
+0013.514 (0) Table wp_fstemplate1_5wpgmza_circles: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_circles.table.gz - 0.3 KB)
+0013.524 (0) Table wp_fstemplate1_5wpgmza_maps: Total expected rows (approximate): 1
+0013.534 (0) Table wp_fstemplate1_5wpgmza_maps: Total rows added: 1 in 0.01 seconds
+0013.536 (0) Table wp_fstemplate1_5wpgmza_maps: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_maps.table.gz - 0.7 KB)
+0013.546 (0) Table wp_fstemplate1_5wpgmza_polygon: Total expected rows (approximate): 0
+0013.555 (0) Table wp_fstemplate1_5wpgmza_polygon: Total rows added: 0 in 0.01 seconds
+0013.557 (0) Table wp_fstemplate1_5wpgmza_polygon: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_polygon.table.gz - 0.4 KB)
+0013.569 (0) Table wp_fstemplate1_5wpgmza_polylines: Total expected rows (approximate): 0
+0013.584 (0) Table wp_fstemplate1_5wpgmza_polylines: Total rows added: 0 in 0.01 seconds
+0013.585 (0) Table wp_fstemplate1_5wpgmza_polylines: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_polylines.table.gz - 0.3 KB)
+0013.597 (0) Table wp_fstemplate1_5wpgmza_rectangles: Total expected rows (approximate): 0
+0013.613 (0) Table wp_fstemplate1_5wpgmza_rectangles: Total rows added: 0 in 0.01 seconds
+0013.615 (0) Table wp_fstemplate1_5wpgmza_rectangles: finishing file (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_rectangles.table.gz - 0.3 KB)
+0013.630 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5options.table.gz (1/52): adding to final database dump
+0013.664 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5users.table.gz (2/52): adding to final database dump
+0013.667 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5usermeta.table.gz (3/52): adding to final database dump
+0013.669 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5commentmeta.table.gz (4/52): adding to final database dump
+0013.671 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5comments.table.gz (5/52): adding to final database dump
+0013.673 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5links.table.gz (6/52): adding to final database dump
+0013.675 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5postmeta.table.gz (7/52): adding to final database dump
+0013.732 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5posts.table.gz (8/52): adding to final database dump
+0013.748 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5term_relationships.table.gz (9/52): adding to final database dump
+0013.749 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5term_taxonomy.table.gz (10/52): adding to final database dump
+0013.751 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5termmeta.table.gz (11/52): adding to final database dump
+0013.752 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5terms.table.gz (12/52): adding to final database dump
+0013.755 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_draft_submissions.table.gz (13/52): adding to final database dump
+0013.757 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_entry.table.gz (14/52): adding to final database dump
+0013.759 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_entry_meta.table.gz (15/52): adding to final database dump
+0013.760 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_entry_notes.table.gz (16/52): adding to final database dump
+0013.763 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_form.table.gz (17/52): adding to final database dump
+0013.765 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_form_meta.table.gz (18/52): adding to final database dump
+0013.767 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5gf_form_view.table.gz (19/52): adding to final database dump
+0013.769 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5responsive_menu_pro.table.gz (20/52): adding to final database dump
+0013.780 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfBadLeechers.table.gz (21/52): adding to final database dump
+0013.783 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfBlockedCommentLog.table.gz (22/52): adding to final database dump
+0013.787 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfBlockedIPLog.table.gz (23/52): adding to final database dump
+0013.789 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfBlocks7.table.gz (24/52): adding to final database dump
+0013.790 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfConfig.table.gz (25/52): adding to final database dump
+0013.904 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfCrawlers.table.gz (26/52): adding to final database dump
+0013.906 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfFileChanges.table.gz (27/52): adding to final database dump
+0013.907 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfFileMods.table.gz (28/52): adding to final database dump
+0014.772 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfHits.table.gz (29/52): adding to final database dump
+0014.783 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfHoover.table.gz (30/52): adding to final database dump
+0014.787 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfIssues.table.gz (31/52): adding to final database dump
+0014.799 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfKnownFileList.table.gz (32/52): adding to final database dump
+0014.899 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfLeechers.table.gz (33/52): adding to final database dump
+0014.902 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfLiveTrafficHuman.table.gz (34/52): adding to final database dump
+0014.917 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfLocs.table.gz (35/52): adding to final database dump
+0014.919 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfLogins.table.gz (36/52): adding to final database dump
+0014.924 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfNet404s.table.gz (37/52): adding to final database dump
+0014.925 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfNotifications.table.gz (38/52): adding to final database dump
+0014.928 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfPendingIssues.table.gz (39/52): adding to final database dump
+0014.929 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfReverseCache.table.gz (40/52): adding to final database dump
+0014.933 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfSNIPCache.table.gz (41/52): adding to final database dump
+0014.937 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfScanners.table.gz (42/52): adding to final database dump
+0014.941 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfStatus.table.gz (43/52): adding to final database dump
+0014.951 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wfVulnScanners.table.gz (44/52): adding to final database dump
+0014.955 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza.table.gz (45/52): adding to final database dump
+0014.958 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_categories.table.gz (46/52): adding to final database dump
+0014.961 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_category_maps.table.gz (47/52): adding to final database dump
+0014.966 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_circles.table.gz (48/52): adding to final database dump
+0014.975 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_maps.table.gz (49/52): adding to final database dump
+0014.983 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_polygon.table.gz (50/52): adding to final database dump
+0014.986 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_polylines.table.gz (51/52): adding to final database dump
+0014.992 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db-table-wp_fstemplate1_5wpgmza_rectangles.table.gz (52/52): adding to final database dump
+0015.105 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db.gz: finished writing out complete database file (984 KB)
+0015.293 (0) Total database tables backed up: 52 (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db.gz, size: 1026588, sha256)
+0015.305 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0015.306 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins2.zip: plugins: This file has not yet been successfully uploaded: will queue
+0015.308 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0015.310 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0015.311 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0015.312 (0) backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0015.313 (0) Saving backup history. Total backup size: 39.8 MB
+0015.319 (0) Requesting upload of the files that have not yet been successfully uploaded (6)
+0015.325 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0015.329 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-6fa4a557efafc67be8c12d687064ade1)
+0015.331 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0015.365 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0015.791 (0) Dropbox quota usage: used=219852 MB, total=1059200 MB, available=839348 MB
+0015.793 (0) Dropbox: Attempt to upload: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip to: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip
+0017.437 (0) Dropbox chunked upload: 4.5 % uploaded (AAAAAAACkXDwo1DXUinJvA, 1048576, 5120 KB)
+0031.700 (0) Dropbox chunked upload: 27.2 % uploaded (AAAAAAACkXDwo1DXUinJvA, 6291456, 5120 KB)
+0041.183 (0) Dropbox chunked upload: 49.9 % uploaded (AAAAAAACkXDwo1DXUinJvA, 11534336, 4608 KB)
+0054.522 (0) Dropbox chunked upload: 70.3 % uploaded (AAAAAAACkXDwo1DXUinJvA, 16252928, 4608 KB)
+0061.672 (0) Dropbox chunked upload: 90.7 % uploaded (AAAAAAACkXDwo1DXUinJvA, 20971520, 5632 KB)
+0065.019 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACkXDwo1DXUinJvA, 23111993, 5632 KB)
+0067.204 (0) Recording as successfully uploaded: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip (ca091b8b501f1dc55ef0b1e331870e99)
+0067.212 (0) Deleting local file: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip: skipped: user has unchecked updraft_delete_local option
+0067.213 (0) Dropbox: File upload success (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins.zip): 22570 KB in 51s (438 KB/s)
+0067.607 (0) Dropbox quota usage: used=219913.9 MB, total=1059200 MB, available=839286.1 MB
+0067.609 (0) Dropbox: Attempt to upload: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins2.zip to: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins2.zip
+0068.879 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACkXH5-z-3WbGTjA, 162678, 5632 KB)
+0071.166 (0) Recording as successfully uploaded: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins2.zip (bdfa414f6564f86e22a3f3d2ef69d15f)
+0071.175 (0) Deleting local file: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins2.zip: skipped: user has unchecked updraft_delete_local option
+0071.177 (0) Dropbox: File upload success (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-plugins2.zip): 158 KB in 3s (44 KB/s)
+0071.568 (0) Dropbox quota usage: used=219914 MB, total=1059200 MB, available=839286 MB
+0071.569 (0) Dropbox: Attempt to upload: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-themes.zip to: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-themes.zip
+0074.844 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACkXJGNK7FnszOUA, 3254910, 5632 KB)
+0078.841 (0) Recording as successfully uploaded: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-themes.zip (662bf2926eaf669e32754bdc320505e8)
+0078.846 (0) Deleting local file: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-themes.zip: skipped: user has unchecked updraft_delete_local option
+0078.847 (0) Dropbox: File upload success (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-themes.zip): 3178 KB in 7s (436 KB/s)
+0079.247 (0) Dropbox quota usage: used=219917.2 MB, total=1059200 MB, available=839282.8 MB
+0079.248 (0) Dropbox: Attempt to upload: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-uploads.zip to: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-uploads.zip
+0084.419 (0) Dropbox chunked upload: 43.9 % uploaded (AAAAAAACkXOTx9MLKI0fhA, 5767168, 9728 KB)
+0093.865 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACkXOTx9MLKI0fhA, 13148991, 9728 KB)
+0096.161 (0) Recording as successfully uploaded: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-uploads.zip (ddd6e77a6b1290d5711629fdeebd520e)
+0096.167 (0) Deleting local file: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-uploads.zip: skipped: user has unchecked updraft_delete_local option
+0096.171 (0) Dropbox: File upload success (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-uploads.zip): 12840 KB in 16s (758 KB/s)
+0096.607 (0) Dropbox quota usage: used=219929.7 MB, total=1059200 MB, available=839270.3 MB
+0096.608 (0) Dropbox: Attempt to upload: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-others.zip to: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-others.zip
+0098.878 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACkXSaOp_CWmYqkw, 1078123, 9728 KB)
+0105.005 (0) Recording as successfully uploaded: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-others.zip (55382641f1216c0793c573e69d8f827f)
+0105.010 (0) Deleting local file: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-others.zip: skipped: user has unchecked updraft_delete_local option
+0105.010 (0) Dropbox: File upload success (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-others.zip): 1052 KB in 8s (125 KB/s)
+0105.669 (0) Dropbox quota usage: used=219930.7 MB, total=1059200 MB, available=839269.3 MB
+0105.670 (0) Dropbox: Attempt to upload: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db.gz to: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db.gz
+0107.415 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACkXXvhPEkO4-boQ, 1026588, 9728 KB)
+0111.107 (0) Recording as successfully uploaded: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db.gz (52d7529de19a77cf21b0a27b103616b6)
+0111.113 (0) Deleting local file: backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db.gz: skipped: user has unchecked updraft_delete_local option
+0111.114 (0) Dropbox: File upload success (backup_2018-05-07-1101_FSTemplate_15_cd607861ad1c-db.gz): 1002 KB in 5s (184 KB/s)
+0111.123 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0111.125 (0) Number of backup sets in history: 3; groups (db): 1
+0111.126 (0) Examining (for databases) backup set with group_id=0, nonce=cd607861ad1c, datestamp=1525705281 (May 07 2018 15:01:21)
+0111.127 (0) This backup set is the backup set just made, so will not be deleted.
+0111.127 (0) Examining (for databases) backup set with group_id=0, nonce=f03949412898, datestamp=1525665258 (May 07 2018 03:54:18)
+0111.127 (0) 1525665258: db: this set includes a database (backup_2018-05-06-2354_Maxwell_Development_f03949412898-db.gz); db count is now 1
+0111.127 (0) 1525665258: db: over retain limit (1); will delete this database
+0111.127 (0) Delete file: backup_2018-05-06-2354_Maxwell_Development_f03949412898-db.gz, service=dropbox
+0111.128 (0) Deleting local copy (backup_2018-05-06-2354_Maxwell_Development_f03949412898-db.gz)
+0111.131 (0) Dropbox: request deletion: backup_2018-05-06-2354_Maxwell_Development_f03949412898-db.gz
+0112.019 (0) Dropbox error: path_lookup (line: 224, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-5/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0112.022 (0) This backup set is now empty; will remove from history
+0112.023 (0) Deleting log file (log.f03949412898.txt)
+0112.025 (0) Examining (for databases) backup set with group_id=0, nonce=b82ed150748a, datestamp=1525436640 (May 04 2018 12:24:00)
+0112.025 (0) 1525436640: db: this set includes a database (backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-db.gz); db count is now 1
+0112.025 (0) 1525436640: db: over retain limit (1); will delete this database
+0112.025 (0) Delete file: backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-db.gz, service=dropbox
+0112.026 (0) Deleting local copy (backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-db.gz)
+0112.028 (0) Dropbox: request deletion: backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-db.gz
+0112.609 (0) Dropbox error: path_lookup (line: 224, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-5/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0112.612 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0112.613 (0) Number of backup sets in history: 2; groups (files): 1
+0112.614 (0) Examining (for files) backup set with nonce=cd607861ad1c, datestamp=1525705281 (May 07 2018 15:01:21)
+0112.615 (0) This backup set is the backup set just made, so will not be deleted.
+0112.615 (0) This backup set is the backup set just made, so will not be deleted.
+0112.616 (0) This backup set is the backup set just made, so will not be deleted.
+0112.616 (0) This backup set is the backup set just made, so will not be deleted.
+0112.616 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0112.617 (0) Examining (for files) backup set with nonce=b82ed150748a, datestamp=1525436640 (May 04 2018 12:24:00)
+0112.617 (0) plugins: over retain limit (1); will delete this file entity
+0112.617 (0) themes: over retain limit (1); will delete this file entity
+0112.617 (0) uploads: over retain limit (1); will delete this file entity
+0112.617 (0) others: over retain limit (1); will delete this file entity
+0112.618 (0) Delete file: backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-plugins.zip, service=dropbox
+0112.619 (0) Deleting local copy (backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-plugins.zip)
+0112.620 (0) Delete file: backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-themes.zip, service=dropbox
+0112.620 (0) Deleting local copy (backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-themes.zip)
+0112.621 (0) Delete file: backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-uploads.zip, service=dropbox
+0112.622 (0) Deleting local copy (backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-uploads.zip)
+0112.623 (0) Delete file: backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-others.zip, service=dropbox
+0112.625 (0) Deleting local copy (backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-others.zip)
+0112.627 (0) Dropbox: request deletion: backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-plugins.zip
+0113.094 (0) Dropbox error: path_lookup (line: 224, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-5/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0113.098 (0) This backup set is now empty; will remove from history
+0113.100 (0) Deleting log file (log.b82ed150748a.txt)
+0113.102 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0113.108 (0) Resume backup (cd607861ad1c, 0): finish run
+0113.116 (0) Decremented the semaphore (fd) by 1
+0113.120 (0) Semaphore (fd) unlocked
+0113.121 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0113.136 (0) The backup apparently succeeded and is now complete
+0113.138 (0) No email will/can be sent - the user has not configured an email address.
+0113.140 (0) The backup apparently succeeded and is now complete.

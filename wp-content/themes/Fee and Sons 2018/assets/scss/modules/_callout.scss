@@ -1,0 +1,69 @@
+/* Module - Callout
+================================================== */
+.callout-single-container {
+	padding: 40px 0;
+	overflow: hidden;
+	min-height: 300px;
+	display: flex;
+	flex-flow: column;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.callout-single-content-container {
+	display: flex;
+	flex-flow: column;
+}
+
+.callout-justify-center {
+	justify-content: center;
+}
+.callout-justify-start {
+	justify-content: flex-start;
+}
+.callout-justify-end {
+	justify-content: flex-end;
+}
+.callout-align-center {
+	align-items: center;
+}
+.callout-align-start {
+	align-items: flex-start;
+}
+.callout-align-end {
+	align-items: flex-end;
+}
+.callout-multiple-container {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	
+	@media screen and (max-width: 756px) {
+		flex-wrap: wrap;
+		flex-flow: column;
+}
+
+}
+.callout-multiple-indvidual {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 20px 10px 0 10px;	
+	flex: 1;
+}
+.callout-multiple-image {
+}
+
+.callout-multiple-rule{
+	height: 2px;
+	width: 50%;
+}
+
+.callout-multiple-headline {
+	margin: 20px 0;
+}
+.callout-multiple-paragraph {
+	//text-align: center;
+	margin-top: 20px;
+	padding: 0 20px 20px 0;
+}

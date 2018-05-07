@@ -1,0 +1,87 @@
+/*=================================================
+Containers
+=================================================== */
+
+.wrapper {
+	width: 100%;
+	max-width: $site-width;
+	margin: 0 auto;
+	background-color: $white;
+	min-height: 100vh;
+	box-shadow: -1px 0px 10px 2px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+	position: relative;
+	width: 90%;
+	max-width: $container-width;
+	margin: 0 auto;
+}
+
+.pattern {
+	background: url(../images/pattern.png) repeat;
+}
+.paging-input_0 {
+	font-family: "Lato", Arial, sans-serif!important;
+}
+
+
+.page-grid.grid {
+	position: relative;
+	align-items: stretch;
+	justify-content: space-between;
+	padding-top: 1.5em;
+
+	/* Media (1099px)
+	-------------------------------------------------- */
+	@media screen and (max-width: 1099px) {
+	
+	padding: 2em 0;
+	
+	} // 1099px Ends ---->
+}
+
+.page-modules {
+		width: calc( 100% - 250px - 3em );
+
+		&.page-modules--full {
+			width: 100%;
+		}
+
+		/* Media (1099px)
+		-------------------------------------------------- */
+		@media screen and (max-width: 1099px) {
+		
+		flex-basis: 100%;
+		width: 100%;
+		
+		} // 1099px Ends ---->
+} // page modules Ends ---->
+
+.sidebar {
+	width: 250px;
+}
+.wpgmza_map {
+	margin-bottom: 60px;
+}
+
+article.main {
+
+	/* Media (1100px)
+	-------------------------------------------------- */
+	@media screen and (min-width: 1100px) {
+	
+		margin-top: 160px;
+	
+	} // 1100px Ends ---->
+
+	/* Media (1099px)
+	-------------------------------------------------- */
+	@media screen and (max-width: 1099px) {
+		
+			margin-top: 5em;
+		
+		} // 1099px Ends ---->
+	
+}
+

@@ -1,0 +1,42 @@
+/* Module - Callout - Images Only
+================================================== */
+
+.callout-io-container {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	@media screen and (max-width: 756px) {
+		flex-wrap: wrap;		
+}
+	@media screen and (max-width: 530px) {
+		justify-content: center;		
+}
+
+
+}
+
+.callout-io-image {
+	width: 200px;
+	height: 200px;
+	margin: 0 0 20px 0;
+	padding: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	:hover {
+		border-bottom: 5px $primary-color solid;
+		transition: border-bottom .25s ease-in-out;
+		margin:0;
+
+	}
+
+}
+
+.callout-io-title {
+	line-height: 1em;
+	border-bottom: 5px transparent solid;}

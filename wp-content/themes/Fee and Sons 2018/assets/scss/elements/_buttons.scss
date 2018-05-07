@@ -1,0 +1,99 @@
+/*=================================================
+Buttons
+=================================================== */
+
+.btn {
+	color: $shaft;
+	padding: 10px;
+	background: $primary-color;
+	transition: background .25s ease-in-out;
+	
+	&:hover {
+		background: $white;
+		color: $shaft;
+
+	}
+	
+	a {
+		text-decoration: none;
+		color: $white;
+		padding: 10px;
+
+		
+		&:hover {
+			color: $shaft;
+
+		}
+	}
+
+}
+
+.btn-primary {
+	color: $shaft;
+	padding: 10px;
+	background: $primary-color;
+	transition: background .25s ease-in-out;
+	
+	&:hover {
+		background: $shaft;
+		color: $white;
+
+	}
+	
+	a {
+		text-decoration: none;
+		color: $white;
+		padding: 10px;
+
+		
+		&:hover {
+			color: $white;
+
+		}
+	}
+
+}
+.btn-secondary {
+	color: $shaft;
+	padding: 10px;
+	background: $primary-color;
+	transition: background .25s ease-in-out;
+	
+	&:hover {
+		background: $shaft;
+		color: $white;
+
+	}
+	
+	a {
+		text-decoration: none;
+		color: $white;
+		padding: 10px;
+
+		
+		&:hover {
+			color: $white;
+
+		}
+	}
+
+}
+
+
+  /*------------------------------------------------------------------------*\
+  Submit Buttons
+  \*------------------------------------------------------------------------*/
+  input[type="submit"],
+  button[type="submit"],
+  .btn.btn-submit {
+
+    /*  Submit Button Hover Styling  */
+    /*  ---------------------------------------------------*/
+    &:hover {
+      background-color: darken($secondary-color, 20%);
+      border-color: darken($secondary-color, 20%);
+      color: $white;
+    }
+
+    } // End Submit Button Styling ---->
+    

@@ -1,0 +1,81 @@
+/* Module - Products Alternating
+================================================== */
+
+.products-alternating-container {
+	
+}
+.products-alternating-content {
+	padding: 40px 0;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	align-items: center;
+	
+	@media screen and (max-width: 900px) {
+		flex-flow: column;		
+}
+
+}
+.products-alternating-image-left {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	flex: 1;
+	order: 1;
+	padding: 0 5%;
+	
+	img {
+		max-width: 300px;
+		max-height: 300px;
+		border: 1px solid $primary-color;
+
+		@media screen and (max-width: 900px) {
+			max-width: 150px;
+			max-height: 150px;
+}
+	
+	}	
+}
+.products-alternating-image-right {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	flex: 1;
+	order: 2;
+	padding: 0 5%;
+	
+	img {
+		max-width: 300px;
+		max-height: 300px;
+		border: 1px solid $primary-color;
+
+		@media screen and (max-width: 900px) {
+			max-width: 150px;
+			max-height: 150px;
+}
+
+
+	}
+	
+	@media screen and (max-width: 900px) {
+		order: 1;
+}
+
+	
+}
+.products-alternating-written-right {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	flex: 1;
+	padding: 0 5%;
+	order: 1;
+}
+.products-alternating-written-left {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	flex: 1;
+	padding: 0 5%;
+	order: 2;
+}

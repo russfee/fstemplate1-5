@@ -1,0 +1,336 @@
+@charset "utf-8";
+/*
+Theme Name: Fee and Sons 1-2
+Text Domain: fee-and-sons-1-2
+Theme URI: http://feeandsonscreative.com
+Description: A default WordPress theme.
+Version: 3.0
+Author: Russ Fee
+Author URI: http://feeandsonscreative.com
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post, blog
+/*
+
+
+/* Table of Content
+==================================================
+	#Basic Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Main Navigation
+	#Site Styles
+	#Media Queries
+	#Wordpress Core
+	#Misc */
+
+
+
+
+/* #Banner
+================================================== */
+#banner{
+	display: flex;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	  
+	height: 400px;
+}
+
+.banner-content {
+	height: 100%;
+	width: 100%;
+	padding: 0 40px;
+	/*background: #34957355;*/
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.flex-start {
+	align-items: flex-start;
+}
+.flex-center {
+	align-items: center;
+}
+.flex-end {
+	align-items: flex-end;
+}
+
+
+.overlay-black {
+	background: linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5));
+}
+.overlay-white {
+	background: linear-gradient(rgba(255,255,255, .5),rgba(255,255,255, .5));
+}
+
+.words {
+	
+}
+.home-banner-headline {
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #333;
+}
+.home-banner-subtitle {
+	font-size: 1.5em;
+	margin: 20px 0;
+	color: #333;
+}
+
+
+
+/* #Typography
+================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+	color: #181818;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight: bold; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; text-decoration: none; }
+h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px; font-weight: 900; text-transform: uppercase;}
+h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+h5 { font-size: 17px; line-height: 24px; }
+h6 { font-size: 14px; line-height: 21px; }
+.subheader { color: #777; }
+
+p { margin: 0 0 20px 0; }
+p img { margin: 0; }
+p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+small { font-size: 80%; }
+
+/*	Blockquotes  */
+blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+blockquote cite { display: block; font-size: 12px; color: #555; }
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+hr { border: solid #ddd; border-width: 1px 0 0; clear: both; height: 0; }
+
+.white-text {
+	color: #fff;
+}
+.dark-text {
+	color: #333;
+}
+
+/* #Links
+================================================== */
+
+a, a:visited { color: #000; text-decoration: underline; outline: 0;  }
+a:hover, a:focus { color: #c1c1c1; }
+p a, p a:visited { line-height: inherit; }
+
+/* #Lists
+================================================== */
+
+ul, ol { }
+ul { margin-left: 40px; }
+ol { list-style: decimal; }
+ol, ul.square, ul.circle, ul.disc { margin-left: 40px; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+ul ul, ul ol,
+ol ol, ol ul {  }
+ul ul li, ul ol li, ol ol li, ol ul li { }
+li {  }
+ul.large li {  }
+li p {  }
+
+/* #Images
+================================================== */
+
+img { max-width: 100%; height: auto; }
+
+
+
+/* #Forms
+================================================== */
+
+form {
+
+}
+fieldset {
+
+}
+input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+
+}
+select {
+padding: 0;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+
+}
+textarea {
+	min-height: 60px;
+}
+label,
+legend {
+
+}
+select {
+	width: 220px;
+}
+input[type="checkbox"] {
+
+}
+label span,
+legend span {
+
+}
+
+
+
+
+/* #Site Styles
+================================================== */
+.header-container {
+	display: flex;
+	flex-grow: 1;
+}
+
+
+
+
+
+/* #Media Queries
+================================================== */
+
+/* Smaller Laptop to standard 1200 (devices and browsers) */
+@media only screen and (max-width: 1159px) {
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+
+/* #Wordpress Core
+================================================== */
+
+/* AUTHORS */
+
+.gravatar { float: left; margin: 0 10px 0 0; display: block; }
+.bypostauthor { }
+
+/* OLD & NEW POSTS */
+
+.newer-older { clear: both; }
+.older { float: left; }
+.newer { float: right; }
+.sticky { }
+
+/* IMAGE ALIGNMENT */
+
+.alignnone { margin: 5px 20px 20px 0; }
+.aligncenter, div.aligncenter { display: block; margin: 5px auto 5px auto; }
+.alignright { float:right; margin: 5px 0 20px 20px; }
+.alignleft { float: left; margin: 5px 20px 20px 0; }
+a img.alignright { float: right; margin: 5px 0 20px 20px; }
+a img.alignnone { margin: 5px 20px 20px 0; }
+a img.alignleft { float: left; margin: 5px 20px 20px 0; }
+a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.wp-caption { background: #fff; border: 1px solid #f0f0f0; max-width: 96%; padding: 5px 3px 10px; text-align: center; }
+.wp-caption.alignnone { margin: 5px 20px 20px 0; }
+.wp-caption.alignleft { margin: 5px 20px 20px 0; }
+.wp-caption.alignright { margin: 5px 0 20px 20px; }
+.wp-caption img { border: 0 none; height: auto; margin: 0; max-width: 98.5%; padding: 0; width: auto; }
+.wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px; margin: 0; padding: 0 4px 5px; }
+.gallery-caption { }
+
+/* TEXT MEANT FOR SCREEN READERS */
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+/* #Misc
+================================================== */
+
+.clear { clear: both; }
+.remove-bottom { margin-bottom: 0 !important; }
+.half-bottom { margin-bottom: 10px !important; }
+.add-bottom { margin-bottom: 20px !important; }

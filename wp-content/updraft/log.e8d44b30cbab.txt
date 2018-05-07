@@ -1,0 +1,229 @@
+0000.010 () Opened log file at time: Mon, 07 May 2018 03:52:16 +0000 on http://fstemplate1-5.local
+0000.011 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MBP.hitronhub.home 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_CA Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 26.7M | 2M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.011 () Free space on disk containing Updraft's temporary directory: 96150.6 MB
+0000.014 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.151 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.158 () Entity: db
+0000.158 () restore_backup(backup_file=backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-db.gz, type=db, info=a:0:{}, last_one=)
+0000.158 () Unpacking backup... (backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-db.gz, 1 Mb)
+0000.167 () Database successfully unpacked
+0000.169 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.169 () Using direct MySQL access; value of use_mysqli is: 1
+0000.235 () Max packet size: 32 MB
+0000.235 () Entering maintenance mode
+0000.235 () Enabling Maintenance mode&#8230;
+0000.238 () Backup of: http://russfee.com/maxwell
+0000.395 () Content URL: http://russfee.com/maxwell/wp-content
+0000.395 () Uploads URL: http://russfee.com/maxwell/wp-content/uploads
+0000.395 () Old table prefix: wp_maxwell
+0000.396 () Site information: multisite=0
+0000.402 () New table prefix: wp_fstemplate1_5
+0000.409 () Processing table (MyISAM): wp_maxwelloptions - will restore as: wp_fstemplate1_5options
+0000.531 () Restoring prior UD configuration (table: wp_fstemplate1_5options; keys: 91)
+0000.884 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.885 () Options table fields changed OK
+0000.890 () Search and replacing table: wp_fstemplate1_5options: rows: 337
+0000.957 () Processing table (MyISAM): wp_maxwellusers - will restore as: wp_fstemplate1_5users
+0000.977 () Search and replacing table: wp_fstemplate1_5users: rows: 1
+0000.978 () Processing table (MyISAM): wp_maxwellusermeta - will restore as: wp_fstemplate1_5usermeta
+0000.991 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.993 () Usermeta table fields changed OK
+0000.997 () Search and replacing table: wp_fstemplate1_5usermeta: rows: 25
+0001.002 () Processing table (MyISAM): wp_maxwellcommentmeta - will restore as: wp_fstemplate1_5commentmeta
+0001.018 () Search and replacing table: wp_fstemplate1_5commentmeta: rows: 0
+0001.018 () Processing table (MyISAM): wp_maxwellcomments - will restore as: wp_fstemplate1_5comments
+0001.034 () Search and replacing table: wp_fstemplate1_5comments: rows: 1
+0001.036 () Processing table (MyISAM): wp_maxwelllinks - will restore as: wp_fstemplate1_5links
+0001.052 () Search and replacing table: wp_fstemplate1_5links: rows: 0
+0001.052 () Processing table (MyISAM): wp_maxwellpostmeta - will restore as: wp_fstemplate1_5postmeta
+0001.230 () Search and replacing table: wp_fstemplate1_5postmeta: rows: 0
+0001.230 () Processing table (MyISAM): wp_maxwellposts - will restore as: wp_fstemplate1_5posts
+0001.286 () Skipping search/replace on GUID column in posts table
+0001.286 () Search and replacing table: wp_fstemplate1_5posts: rows: 281
+0001.393 () Processing table (MyISAM): wp_maxwellterm_relationships - will restore as: wp_fstemplate1_5term_relationships
+0001.408 () Skipping this table: data in this table (wp_fstemplate1_5term_relationships) should not be search/replaced
+0001.408 () Processing table (MyISAM): wp_maxwellterm_taxonomy - will restore as: wp_fstemplate1_5term_taxonomy
+0001.426 () Search and replacing table: wp_fstemplate1_5term_taxonomy: rows: 3
+0001.428 () Processing table (MyISAM): wp_maxwelltermmeta - will restore as: wp_fstemplate1_5termmeta
+0001.445 () Search and replacing table: wp_fstemplate1_5termmeta: rows: 0
+0001.445 () Processing table (MyISAM): wp_maxwellterms - will restore as: wp_fstemplate1_5terms
+0001.464 () Search and replacing table: wp_fstemplate1_5terms: rows: 3
+0001.465 () Processing table (MyISAM): wp_maxwellgf_draft_submissions - will restore as: wp_fstemplate1_5gf_draft_submissions
+0001.479 () Search and replacing table: wp_fstemplate1_5gf_draft_submissions: rows: 0
+0001.479 () Processing table (MyISAM): wp_maxwellgf_entry - will restore as: wp_fstemplate1_5gf_entry
+0001.499 () Search and replacing table: wp_fstemplate1_5gf_entry: rows: 0
+0001.500 () Processing table (MyISAM): wp_maxwellgf_entry_meta - will restore as: wp_fstemplate1_5gf_entry_meta
+0001.514 () Search and replacing table: wp_fstemplate1_5gf_entry_meta: rows: 0
+0001.515 () Processing table (MyISAM): wp_maxwellgf_entry_notes - will restore as: wp_fstemplate1_5gf_entry_notes
+0001.527 () Search and replacing table: wp_fstemplate1_5gf_entry_notes: rows: 0
+0001.527 () Processing table (MyISAM): wp_maxwellgf_form - will restore as: wp_fstemplate1_5gf_form
+0001.538 () Database queries processed: 50 in 1.34 seconds
+0001.542 () Search and replacing table: wp_fstemplate1_5gf_form: rows: 1
+0001.543 () Processing table (MyISAM): wp_maxwellgf_form_meta - will restore as: wp_fstemplate1_5gf_form_meta
+0001.557 () Search and replacing table: wp_fstemplate1_5gf_form_meta: rows: 1
+0001.559 () Processing table (MyISAM): wp_maxwellgf_form_view - will restore as: wp_fstemplate1_5gf_form_view
+0001.573 () Search and replacing table: wp_fstemplate1_5gf_form_view: rows: 1
+0001.573 () Processing table (MyISAM): wp_maxwellresponsive_menu_pro - will restore as: wp_fstemplate1_5responsive_menu_pro
+0001.601 () Search and replacing table: wp_fstemplate1_5responsive_menu_pro: rows: 276
+0001.617 () Processing table (MyISAM): wp_maxwellwfBadLeechers - will restore as: wp_fstemplate1_5wfBadLeechers
+0001.630 () Search and replacing table: wp_fstemplate1_5wfBadLeechers: rows: 0
+0001.630 () Processing table (MyISAM): wp_maxwellwfBlockedCommentLog - will restore as: wp_fstemplate1_5wfBlockedCommentLog
+0001.642 () Search and replacing table: wp_fstemplate1_5wfBlockedCommentLog: rows: 0
+0001.642 () Processing table (MyISAM): wp_maxwellwfBlockedIPLog - will restore as: wp_fstemplate1_5wfBlockedIPLog
+0001.655 () Search and replacing table: wp_fstemplate1_5wfBlockedIPLog: rows: 0
+0001.655 () Processing table (MyISAM): wp_maxwellwfBlocks7 - will restore as: wp_fstemplate1_5wfBlocks7
+0001.667 () Search and replacing table: wp_fstemplate1_5wfBlocks7: rows: 0
+0001.668 () Processing table (MyISAM): wp_maxwellwfConfig - will restore as: wp_fstemplate1_5wfConfig
+0001.744 () Search and replacing table: wp_fstemplate1_5wfConfig: rows: 229
+0001.766 () Processing table (MyISAM): wp_maxwellwfCrawlers - will restore as: wp_fstemplate1_5wfCrawlers
+0001.781 () Search and replacing table: wp_fstemplate1_5wfCrawlers: rows: 0
+0001.782 () Processing table (MyISAM): wp_maxwellwfFileChanges - will restore as: wp_fstemplate1_5wfFileChanges
+0001.799 () Search and replacing table: wp_fstemplate1_5wfFileChanges: rows: 0
+0001.799 () Processing table (MyISAM): wp_maxwellwfFileMods - will restore as: wp_fstemplate1_5wfFileMods
+0002.438 () Search and replacing table: wp_fstemplate1_5wfFileMods: rows: 6025
+0003.138 () Searching and replacing reached row: 5000
+0003.269 () Processing table (MyISAM): wp_maxwellwfHits - will restore as: wp_fstemplate1_5wfHits
+0003.286 () Skipping this table: data in this table (wp_fstemplate1_5wfHits) should not be search/replaced
+0003.286 () Processing table (MyISAM): wp_maxwellwfHoover - will restore as: wp_fstemplate1_5wfHoover
+0003.297 () Search and replacing table: wp_fstemplate1_5wfHoover: rows: 0
+0003.297 () Processing table (MyISAM): wp_maxwellwfIssues - will restore as: wp_fstemplate1_5wfIssues
+0003.309 () Search and replacing table: wp_fstemplate1_5wfIssues: rows: 0
+0003.309 () Processing table (MyISAM): wp_maxwellwfKnownFileList - will restore as: wp_fstemplate1_5wfKnownFileList
+0003.493 () Database queries processed: 100 in 3.30 seconds
+0003.496 () Search and replacing table: wp_fstemplate1_5wfKnownFileList: rows: 6025
+0003.829 () Searching and replacing reached row: 5000
+0003.890 () Processing table (MyISAM): wp_maxwellwfLeechers - will restore as: wp_fstemplate1_5wfLeechers
+0003.909 () Search and replacing table: wp_fstemplate1_5wfLeechers: rows: 23
+0003.912 () Processing table (MyISAM): wp_maxwellwfLiveTrafficHuman - will restore as: wp_fstemplate1_5wfLiveTrafficHuman
+0003.924 () Search and replacing table: wp_fstemplate1_5wfLiveTrafficHuman: rows: 4
+0003.925 () Processing table (MyISAM): wp_maxwellwfLocs - will restore as: wp_fstemplate1_5wfLocs
+0003.937 () Search and replacing table: wp_fstemplate1_5wfLocs: rows: 0
+0003.938 () Processing table (MyISAM): wp_maxwellwfLogins - will restore as: wp_fstemplate1_5wfLogins
+0003.950 () Search and replacing table: wp_fstemplate1_5wfLogins: rows: 2
+0003.950 () Processing table (MyISAM): wp_maxwellwfNet404s - will restore as: wp_fstemplate1_5wfNet404s
+0003.961 () Search and replacing table: wp_fstemplate1_5wfNet404s: rows: 0
+0003.961 () Processing table (MyISAM): wp_maxwellwfNotifications - will restore as: wp_fstemplate1_5wfNotifications
+0003.972 () Search and replacing table: wp_fstemplate1_5wfNotifications: rows: 0
+0003.972 () Processing table (MyISAM): wp_maxwellwfPendingIssues - will restore as: wp_fstemplate1_5wfPendingIssues
+0003.984 () Search and replacing table: wp_fstemplate1_5wfPendingIssues: rows: 0
+0003.984 () Processing table (MyISAM): wp_maxwellwfReverseCache - will restore as: wp_fstemplate1_5wfReverseCache
+0004.003 () Search and replacing table: wp_fstemplate1_5wfReverseCache: rows: 0
+0004.003 () Processing table (MyISAM): wp_maxwellwfSNIPCache - will restore as: wp_fstemplate1_5wfSNIPCache
+0004.015 () Search and replacing table: wp_fstemplate1_5wfSNIPCache: rows: 0
+0004.015 () Processing table (MyISAM): wp_maxwellwfScanners - will restore as: wp_fstemplate1_5wfScanners
+0004.027 () Search and replacing table: wp_fstemplate1_5wfScanners: rows: 0
+0004.027 () Processing table (MyISAM): wp_maxwellwfStatus - will restore as: wp_fstemplate1_5wfStatus
+0004.058 () Search and replacing table: wp_fstemplate1_5wfStatus: rows: 361
+0004.096 () Processing table (MyISAM): wp_maxwellwfVulnScanners - will restore as: wp_fstemplate1_5wfVulnScanners
+0004.117 () Search and replacing table: wp_fstemplate1_5wfVulnScanners: rows: 0
+0004.118 () Processing table (InnoDB): wp_maxwellwpgmza - will restore as: wp_fstemplate1_5wpgmza
+0004.136 () Search and replacing table: wp_fstemplate1_5wpgmza: rows: 1
+0004.137 () Processing table (InnoDB): wp_maxwellwpgmza_categories - will restore as: wp_fstemplate1_5wpgmza_categories
+0004.156 () Search and replacing table: wp_fstemplate1_5wpgmza_categories: rows: 0
+0004.156 () Processing table (InnoDB): wp_maxwellwpgmza_category_maps - will restore as: wp_fstemplate1_5wpgmza_category_maps
+0004.174 () Search and replacing table: wp_fstemplate1_5wpgmza_category_maps: rows: 0
+0004.174 () Processing table (InnoDB): wp_maxwellwpgmza_circles - will restore as: wp_fstemplate1_5wpgmza_circles
+0004.192 () Search and replacing table: wp_fstemplate1_5wpgmza_circles: rows: 0
+0004.193 () Processing table (InnoDB): wp_maxwellwpgmza_maps - will restore as: wp_fstemplate1_5wpgmza_maps
+0004.212 () Search and replacing table: wp_fstemplate1_5wpgmza_maps: rows: 1
+0004.214 () Processing table (InnoDB): wp_maxwellwpgmza_polygon - will restore as: wp_fstemplate1_5wpgmza_polygon
+0004.237 () Search and replacing table: wp_fstemplate1_5wpgmza_polygon: rows: 0
+0004.237 () Processing table (InnoDB): wp_maxwellwpgmza_polylines - will restore as: wp_fstemplate1_5wpgmza_polylines
+0004.251 () Search and replacing table: wp_fstemplate1_5wpgmza_polylines: rows: 0
+0004.251 () Processing table (InnoDB): wp_maxwellwpgmza_rectangles - will restore as: wp_fstemplate1_5wpgmza_rectangles
+0004.263 () Unlocking database and leaving maintenance mode
+0004.263 () Disabling Maintenance mode&#8230;
+0004.270 () Search and replacing table: wp_fstemplate1_5wpgmza_rectangles: rows: 0
+0004.270 () Finished: lines processed: 148 in 4.08 seconds
+0004.271 () Cleaning up rubbish...
+0004.271 () Begin search and replace (updraftplus_restored_db)
+0004.271 () [Database-replace-site-url] Database: search and replace site URL
+0004.273 () Restored pre-migration site ID for this installation
+0004.278 () Database search and replace: replace http://russfee.com/maxwell in backup dump with http://fstemplate1-5.local
+0004.278 () Database search and replace: replace https://russfee.com/maxwell in backup dump with http://fstemplate1-5.local
+0004.280 () Search and replacing table: wp_fstemplate1_5commentmeta: already done
+0004.280 () Search and replacing table: wp_fstemplate1_5comments: already done
+0004.280 () Search and replacing table: wp_fstemplate1_5gf_draft_submissions: already done
+0004.281 () Search and replacing table: wp_fstemplate1_5gf_entry: already done
+0004.281 () Search and replacing table: wp_fstemplate1_5gf_entry_meta: already done
+0004.281 () Search and replacing table: wp_fstemplate1_5gf_entry_notes: already done
+0004.281 () Search and replacing table: wp_fstemplate1_5gf_form: already done
+0004.281 () Search and replacing table: wp_fstemplate1_5gf_form_meta: already done
+0004.281 () Search and replacing table: wp_fstemplate1_5gf_form_view: already done
+0004.281 () Search and replacing table: wp_fstemplate1_5links: already done
+0004.281 () Search and replacing table: wp_fstemplate1_5options: already done
+0004.281 () Search and replacing table: wp_fstemplate1_5postmeta: already done
+0004.281 () Search and replacing table: wp_fstemplate1_5posts: already done
+0004.281 () Search and replacing table: wp_fstemplate1_5responsive_menu_pro: already done
+0004.282 () Search and replacing table: wp_fstemplate1_5term_relationships: already done
+0004.282 () Search and replacing table: wp_fstemplate1_5term_taxonomy: already done
+0004.282 () Search and replacing table: wp_fstemplate1_5termmeta: already done
+0004.282 () Search and replacing table: wp_fstemplate1_5terms: already done
+0004.282 () Search and replacing table: wp_fstemplate1_5usermeta: already done
+0004.282 () Search and replacing table: wp_fstemplate1_5users: already done
+0004.282 () Search and replacing table: wp_fstemplate1_5wfBadLeechers: already done
+0004.282 () Search and replacing table: wp_fstemplate1_5wfBlockedCommentLog: already done
+0004.283 () Search and replacing table: wp_fstemplate1_5wfBlockedIPLog: already done
+0004.283 () Search and replacing table: wp_fstemplate1_5wfBlocks7: already done
+0004.283 () Search and replacing table: wp_fstemplate1_5wfConfig: already done
+0004.283 () Search and replacing table: wp_fstemplate1_5wfCrawlers: already done
+0004.284 () Search and replacing table: wp_fstemplate1_5wfFileChanges: already done
+0004.284 () Search and replacing table: wp_fstemplate1_5wfFileMods: already done
+0004.284 () Search and replacing table: wp_fstemplate1_5wfHits: already done
+0004.284 () Search and replacing table: wp_fstemplate1_5wfHoover: already done
+0004.285 () Search and replacing table: wp_fstemplate1_5wfIssues: already done
+0004.285 () Search and replacing table: wp_fstemplate1_5wfKnownFileList: already done
+0004.285 () Search and replacing table: wp_fstemplate1_5wfLeechers: already done
+0004.285 () Search and replacing table: wp_fstemplate1_5wfLiveTrafficHuman: already done
+0004.285 () Search and replacing table: wp_fstemplate1_5wfLocs: already done
+0004.285 () Search and replacing table: wp_fstemplate1_5wfLogins: already done
+0004.285 () Search and replacing table: wp_fstemplate1_5wfNet404s: already done
+0004.285 () Search and replacing table: wp_fstemplate1_5wfNotifications: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wfPendingIssues: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wfReverseCache: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wfSNIPCache: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wfScanners: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wfStatus: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wfVulnScanners: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wpgmza: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wpgmza_categories: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wpgmza_category_maps: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wpgmza_circles: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wpgmza_maps: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wpgmza_polygon: already done
+0004.286 () Search and replacing table: wp_fstemplate1_5wpgmza_polylines: already done
+0004.287 () Search and replacing table: wp_fstemplate1_5wpgmza_rectangles: already done
+0004.292 () Entity: plugins
+0004.292 () restore_backup(backup_file=backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:78:"/Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-5/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0004.292 () Unpacking backup... (backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-plugins.zip, 21.9 Mb)
+0008.168 () Moving old data: filesystem method / updraft_dir is potentially possible
+0008.169 () Moving old data: can potentially use wp_filesystem method / -old
+0008.169 () Moving old data out of the way...
+0009.140 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0009.143 () Moving unpacked backup into place...
+0011.461 () Top-level entities being moved: advanced-custom-fields-pro, akismet, custom-post-type-ui, gravityforms, index.php, maintenance, open-external-links-in-a-new-window, responsive-menu-pro, updraftplus, wordfence, wordpress-importer, wp-google-maps, wp-google-maps-pro
+0011.466 () Cleaning up rubbish...
+0011.469 () Entity: themes
+0011.469 () restore_backup(backup_file=backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-themes.zip, type=themes, info=a:2:{s:4:"path";s:77:"/Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-5/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0011.469 () Unpacking backup... (backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-themes.zip, 3.1 Mb)
+0011.743 () Moving old data: filesystem method / updraft_dir is potentially possible
+0011.743 () Moving old data: can potentially use wp_filesystem method / -old
+0011.743 () Moving old data out of the way...
+0011.850 () Top-level entities being moved: index.php, twentyfifteen, twentyseventeen, twentysixteen
+0011.852 () Moving unpacked backup into place...
+0012.040 () Top-level entities being moved: .DS_Store, Fee and Sons 2018, index.php, twentyfifteen, twentyseventeen, twentysixteen
+0012.041 () Cleaning up rubbish...
+0012.045 () Entity: uploads
+0012.045 () restore_backup(backup_file=backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:78:"/Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-5/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0012.045 () Unpacking backup... (backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-uploads.zip, 13.4 Mb)
+0012.472 () Moving old data: filesystem method / updraft_dir is potentially possible
+0012.472 () Moving old data: can potentially use wp_filesystem method / -old
+0012.472 () Moving old data out of the way...
+0012.474 () Moving unpacked backup into place...
+0012.596 () Cleaning up rubbish...
+0012.599 () Entity: others
+0012.599 () restore_backup(backup_file=backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-others.zip, type=others, info=a:2:{s:4:"path";s:70:"/Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-5/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0012.599 () Unpacking backup... (backup_2018-05-04-0824_Maxwell_Development_b82ed150748a-others.zip, 1.5 Mb)
+0012.725 () Cleaning up rubbish...
+0012.732 () Restore successful!
+0012.732 () Restore successful

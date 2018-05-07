@@ -1,0 +1,115 @@
+/*=================================================
+Footer_Layout SCSS
+=================================================== */
+
+
+.footer-upper-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	padding: 40px;
+	
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+}
+.contact-section-container {
+	color: $white;
+	display: flex;
+	
+	@media screen and (max-width: 756px) {
+		flex-flow: column;		
+}
+
+}
+.contact-group-container {
+	display: flex;
+	margin: 0 40px 40px 40px;
+	align-items: center;
+	
+	@media screen and (max-width: 350px) {
+		flex-flow: column;		
+}
+
+}
+.contact-group-icon {
+	width: 40px;
+	
+	@media screen and (max-width: 350px) {
+		padding: 0 0 10px 0;		
+}
+
+}
+.contact-group-text {
+	margin-left: 20px;
+}
+.footer-nav-container {
+	display: flex;
+	flex-flow: row;
+	
+	li {
+		list-style: none;
+		display: inline;
+		margin: 0 15px;
+		
+		@media screen and (max-width: 756px) {
+			display: block;
+			text-align: center;
+			margin: 15px;	
+}
+
+	}
+	ul {
+		margin: 0;
+	}
+	
+	a {
+	}
+	
+	.menu-footer-container {
+		display: flex;
+		flex-flow: row;
+		align-items: center;
+	}
+} //end footer upper container
+
+.footer-rule {
+	height: 2px;
+	width: 50%;
+	margin: 40px 0;
+}
+
+.footer-logo {
+	max-width: 250px;
+}
+
+.footer-lower-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 40px;
+}
+
+.copyright {
+	width: 50%;
+	
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+
+.designed-by {
+	width: 50%;
+	text-align: right;
+	
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+

@@ -1,0 +1,26 @@
+/*=================================================
+SECTIONED CONTENT SCSS
+=================================================== */
+
+
+.sectioned-content-container {
+	padding: 20px 40px 20px 0;
+	border-bottom: 3px solid #4295CB;
+	margin-left: 40px;
+	
+	&:last-of-type {
+		border: none;
+	}
+}
+.news-date {
+	margin-top: -10px;
+	padding: 0 0 10px 0;
+}
+.sectioned-image {
+	width: 500px;
+	height: 300px;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}

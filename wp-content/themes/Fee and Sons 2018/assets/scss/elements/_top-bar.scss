@@ -1,0 +1,49 @@
+/*=================================================
+Top Bar
+=================================================== */
+
+
+.top-bar-container {
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 40px 10px 0;
+	
+	@media screen and (max-width: 756px) {
+		justify-content: center;	
+		padding: 10px 0;	
+}
+
+}
+
+.top-bar-content {
+	display: flex;
+	color: $white;
+		
+		:last-of-type {
+   		border: none;
+   }
+
+}
+
+.top-bar-item {
+	padding: 0 20px;
+	border-right: 1px solid #eaeaea;	
+	
+	a{
+		color: $white;
+		text-decoration: none;
+		
+		&:hover {
+		color: $shaft;
+	}
+
+	}
+
+}
+.top-bar-image {
+	width: 30px;
+	margin-left: 20px;
+}
+

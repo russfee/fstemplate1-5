@@ -1,0 +1,139 @@
+/* #Main Navigation
+================================================== */
+#navigation {
+	border: none; 
+	border: 0px; 
+	padding: 0px; 
+	font-size: 1em; 
+	font-weight: bold;
+}
+
+#navigation ul {
+	height: auto; 
+	list-style: none; 
+	margin: 0;
+}
+
+#navigation li {
+	float: left; 
+	list-style: none;
+}
+
+#navigation li a {
+	display: block; 
+	font-weight: normal; 
+	margin: 0px; 
+	text-align: center; 
+	text-decoration: none; 
+	color: #333; 
+	padding: 0px 20px;
+	border-bottom: 5px solid transparent;
+}
+
+#navigation > ul > li > a {
+	color: #333;
+}
+
+#navigation ul ul a {
+	color: #000000;
+}
+
+#navigation li:hover, #navigation ul li:hover > a {
+	color: $shaft; 
+	//color: $white;
+	border-bottom: 3px solid $primary-color;
+	//background-color: $primary-color;
+	text-decoration: none;
+	margin: 0;
+}
+
+#navigation li ul {
+	background: $tertiary-color; 
+	display: none; 
+	height: auto; 
+	padding: 0px; 
+	margin: 0px; 
+	border: 0px; 
+	position: absolute; 
+	z-index: 200;
+}
+
+#navigation li:hover ul { 
+	display: block;
+}
+
+#navigation li li {
+	display: block; 
+	float: none; 
+	margin: 0px; 
+	padding: 0px; 
+	width: 225px;
+}
+
+#navigation li:hover li a {
+	background: none;
+	}
+
+#navigation li ul a {
+	display: block; 
+	font-size: .85em; 
+	font-style: normal; 
+	margin: 0px; 
+	padding: 10px 0px; 
+	color: #ffffff;
+}
+
+#navigation li ul a:hover, #navigation li ul li:hover > a {
+	border: 0px; 
+	text-decoration: none; 
+	color: #c1c1c1; 
+	background-color: #333333;
+}
+
+#navigation li:hover ul{
+	display:block;
+}
+#navigation li:hover ul ul{
+	display:none;
+}
+#navigation li:hover ul ul{ 
+	
+}
+#navigation li li:hover ul{
+	display:block; 
+	left: 100%; 
+	margin-top: -55px;
+}
+
+#navigation li:hover > a,
+#navigation li li:hover > a{ }
+#navigation p {
+	clear: left;
+	}
+
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	@media screen and (max-width: 500px) {
+		flex-flow: column;
+}
+
+
+}
+#mobile-nav {
+	display: none;
+	
+	@media screen and (max-width: 1000px) {
+		display: inline;
+		margin-top: -32px;
+}
+
+	@media screen and (max-width: 500px) {
+		padding: 0 0 40px 0;		
+}
+
+
+}
+
